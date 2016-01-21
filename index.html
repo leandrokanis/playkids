@@ -8,78 +8,92 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/pk-style.css" rel="stylesheet">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
   </head>
   <body>
 
-    <header>
+    <header class="pk-header">
       <div class="container">
         <div class="row">
           <div class="col-md-12 pk-logo">
-            <img src="imgs/playkids-logo.png" alt="PlayKids">
+            <img src="imgs/logo-playkids.png" class="logo-playkids" alt="PlayKids">
+          </div>
+        </div>
+      </div>
+
+      <div class="container">        
+        <div class="row">
+          <div class="col-md-6">
+            <h1>Milhares de horas de diversão e aprendizado para seu filho.</h1>
+            <div class="row">
+              <div class="col-md-7">
+                <a href="#" class="btn btn-primary btn-lg btn-pk col-md-12">Comece seu mês grátis</a>
+              </div>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-7">
+                <h3>Desenhos, livros, músicas e jogos educativos em um só lugar.</h3>
+              </div>
+            </div>
+              
+
+            <a class="glyphicon glyphicon-arrow-down page-scroll bnt-down" aria-hidden="true" href="#main"></a>
+          </div>
+          <div class="col-md-6">
+            <img src="imgs/devices-world.png" class="devices" alt="Devices">
           </div>
         </div>
       </div>
     </header>
 
-    <section>
+    <section class="pk-main" id="main">
       <div class="container">
-        
         <div class="row">
-          <div class="col-md-6">
-            <h1>Milhares de horas de diversão e aprendizado para seu filho</h1>
-            <button type="button" class="btn btn-primary">Comece seu mês grátis</button>
-
-            <h3>Desenhos, livros, músicas e jogos educativos em um só lugar.</h3>
-
-            <a class="glyphicon glyphicon-arrow-down" aria-hidden="true" href="#"></a>
-          </div>
-          <div class="col-md-6">
-            <img src="imgs/devices-world.png" alt="Devices">
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 pk-description">
             <img src="imgs/best-of-2015.png" alt="Devices">
-            <h3>O melhor de 2015</h3>
+            <h3>O melhor <br>de 2015</h3>
             <p>Eleito o melhor serviço de assinatura digital para as crianças do mundo. Um ambiente seguro para o seu filho.</p>
           </div>
-
-          <div class="col-md-3">
-            <img src="imgs/best-of-2015.png" alt="Devices">
-            <h3>O melhor de 2015</h3>
-            <p>Eleito o melhor serviço de assinatura digital para as crianças do mundo. Um ambiente seguro para o seu filho.</p>
+          <div class="col-md-3 pk-description">
+            <img src="imgs/desenhos-favoritos.png" alt="Devices">
+            <h3>Os desenhos <br>favoritos</h3>
+            <p>Os personagens favoritos dos seus filhos en todos os lugares, mesmo sem intenet, mais de 100 personagens.</p>
           </div>
-
-          <div class="col-md-3">
-            <img src="imgs/best-of-2015.png" alt="Devices">
-            <h3>O melhor de 2015</h3>
-            <p>Eleito o melhor serviço de assinatura digital para as crianças do mundo. Um ambiente seguro para o seu filho.</p>
+          <div class="col-md-3 pk-description">
+            <img src="imgs/biblioteca.png" alt="Devices">
+            <h3>Uma biblioteca <br>para seus filhos</h3>
+            <p>Centenas de livros interativos e narrados para estimular a imaginação dos pequenos.</p>
           </div>
-          
-          <div class="col-md-3">
-            <img src="imgs/best-of-2015.png" alt="Devices">
-            <h3>O melhor de 2015</h3>
-            <p>Eleito o melhor serviço de assinatura digital para as crianças do mundo. Um ambiente seguro para o seu filho.</p>
+          <div class="col-md-3 pk-description">
+            <img src="imgs/jogos-educativos.png" alt="Devices">
+            <h3>Jogos educativos <br>e muita diversão</h3>
+            <p>Dezenas de jogos para estimular o aprendizado, lógica, a memória, arte e a musicalidade.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section>
+    <section class="pk-quote">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <img src="img/amanda-profile.png" alt="Amanda Franco">
-            <h3 class="quote">O PlayKids proporciona um momento de diversão e interação com a família."</h3>
+            <img src="imgs/amanda-profile.png" alt="Amanda Franco">
+            <h2 class="quote">"O PlayKids proporciona um momento de <br>diversão e interação com a família."</h2>
+            <h3>Amanda Franco</h3>
             <p>Pedagoga fundadora da Startup Educaderia</p>
           </div>
-          <button type="button" class="btn btn-primary">Comece seu mês grátis</button>
+          <a href="#" class="btn btn-primary btn-pk btn-lg">Comece seu mês grátis</a>
+              
         </div>
       </div>
     </section>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
   </body>
 </html>
