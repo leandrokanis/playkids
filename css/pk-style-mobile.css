@@ -11,15 +11,15 @@
 h1, h2, h3, p {font-family: museo-sans-rounded, arial;}
 p {color: #a0a0a0; font-size: 16px;}
 
-h1, h2 {font-weight: 900;}
-h3, p {font-weight: 700;}
+h1, h3 {font-weight: 900;}
+h2, p {font-weight: 700;}
 
 .pk-header h1, .pk-header h3{
 	color: #fff;
 	text-shadow: 0px 2px 1px #4f9dd0;
 }
 .pk-header h1 {font-size: 28px;}
-.pk-header h3 {font-size: 20px;}
+.pk-header h3 {font-size: 19px; font-weight: 700;}
 .pk-main h3, .pk-quote h3 {color: #6e30ab; font-size: 28px;}
 .pk-quote h2 {font-size: 30px; color: #36bb81; line-height: 1.2em; letter-spacing: 0.1em;}
 .pk-description {text-align: center}
