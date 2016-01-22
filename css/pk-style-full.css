@@ -6,7 +6,9 @@
 .pk-header h3 {font-size: 24px; font-weight: 700;}
 
 .pk-header {
-	background-image: url("../imgs/world-bg.jpg");
+	background-image: url("../imgs/world-bg-high.jpg");
+	background-position: bottom;
+    background-size: 1645px;
 }
 
 .bnt-down{
@@ -17,4 +19,7 @@
     top: 540px;
 }
 
-.devices {margin-left: -90px;}
+.btn-quote {padding-left: 60px; padding-right: 60px;}
+
+.device-full {margin-left: -90px; width: 800px; display: block;}
+.device-mobile {display: none;}

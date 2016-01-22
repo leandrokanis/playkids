@@ -7,4 +7,5 @@
 
 body {text-align: center !important;}
 .bnt-down {display: none;}
-.devices {width: 392px;}
+.device-full {width: 392px; display: none;}
+.device-mobile {display: block;}
